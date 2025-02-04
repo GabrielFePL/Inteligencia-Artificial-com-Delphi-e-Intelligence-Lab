@@ -1,0 +1,137 @@
+object frmTestesAlgoritmos: TfrmTestesAlgoritmos
+  Left = 0
+  Top = 0
+  Caption = 'Testes'
+  ClientHeight = 480
+  ClientWidth = 753
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btnTransferirDados: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Transferir dados'
+    OnClick = btnTransferirDadosClick
+  end
+  object btnTreinarTestar: TButton
+    Position.X = 392.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Treinar e testar'
+    OnClick = btnTreinarTestarClick
+  end
+  object mmNaiveBayes: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 24.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Viewport.Width = 205.000000000000000000
+    Viewport.Height = 189.000000000000000000
+  end
+  object mmKNN: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 240.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Viewport.Width = 205.000000000000000000
+    Viewport.Height = 189.000000000000000000
+  end
+  object edtK: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 13
+    Position.X = 240.000000000000000000
+    Position.Y = 64.000000000000000000
+  end
+  object Label1: TLabel
+    Position.X = 240.000000000000000000
+    Position.Y = 48.000000000000000000
+    Text = 'K'
+  end
+  object mmBackPropagation: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 456.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Viewport.Width = 205.000000000000000000
+    Viewport.Height = 189.000000000000000000
+  end
+  object mmRprop: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 456.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 185.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 19
+    Viewport.Width = 205.000000000000000000
+    Viewport.Height = 181.000000000000000000
+  end
+  object qryInsercao: TFDQuery
+    Connection = dtmConexao.cnnConexao
+    Left = 200
+    Top = 8
+  end
+  object naivebayes: TILNaiveBayes
+    OnResult = naivebayesResult
+    Left = 72
+    Top = 304
+  end
+  object knn: TILKNearestNeighbor
+    OnResult = knnResult
+    Left = 128
+    Top = 304
+  end
+  object backpropagation: TILNeuralNetworkBackpropTrain
+    NeuralNetwork = redebackpropagation
+    TerminationCriteria.MaxIteration = 50
+    Left = 48
+    Top = 384
+  end
+  object redebackpropagation: TILNeuralNetwork
+    OnResult = redebackpropagationResult
+    HiddenLayers = <
+      item
+      end>
+    Inputs.Size = 7
+    Outputs.Size = 1
+    Left = 168
+    Top = 384
+  end
+  object rprop: TILNeuralNetworkRPropTrain
+    NeuralNetwork = rederprop
+    TerminationCriteria.MaxIteration = 50
+    Left = 280
+    Top = 312
+  end
+  object rederprop: TILNeuralNetwork
+    OnResult = rederpropResult
+    HiddenLayers = <
+      item
+      end>
+    Inputs.Size = 7
+    Outputs.Size = 1
+    Left = 296
+    Top = 376
+  end
+end
