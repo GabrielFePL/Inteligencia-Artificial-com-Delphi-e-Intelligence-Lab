@@ -8,4 +8,5 @@ Este repositório contém materiais e exemplos do curso de Inteligência Artific
 ✔ Aplicações práticas e exemplos de código
 
 Curso produzido e oferecido por IA Expert Academy, no YouTube
+
 URL do Curso: https://www.youtube.com/playlist?list=PLZ3V9XyVA52_cTYnWtQuEjjPLNOasoRwj
