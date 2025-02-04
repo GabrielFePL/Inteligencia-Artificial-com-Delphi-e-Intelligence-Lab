@@ -1,0 +1,17 @@
+﻿[dtmConexao.qryPessoas]
+Coordinates=10,10,137,33
+Visible=False
+
+[ListView1]
+Coordinates=210,10,89,159
+Visible=True
+
+[]
+Coordinates=27,187,91,36
+
+[BindSourceDB1]
+Coordinates=10,10,121,213
+
+[BindingsList1]
+Coordinates=174,197,82,33
+

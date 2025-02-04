@@ -1,0 +1,11 @@
+select 
+  p.nome,
+  e.nome,
+  pe.salario
+from 
+  pessoa_empresas pe
+inner join
+  pessoas p on p.id = pe.idpessoa
+inner join
+  empresas e on e.id = pe.idempresa
+

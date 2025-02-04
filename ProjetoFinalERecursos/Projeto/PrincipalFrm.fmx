@@ -1,0 +1,297 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 467
+  ClientWidth = 503
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TListItemRightDetailAppearance'
+    ItemEditAppearanceClassName = 'TListItemRightDetailDeleteAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Left
+    Size.Width = 177.000000000000000000
+    Size.Height = 467.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object cmbGenero: TComboBox
+    Items.Strings = (
+      'M'
+      'F')
+    ItemIndex = 0
+    Position.X = 192.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+  end
+  object cmbIdade: TComboBox
+    Items.Strings = (
+      '<20'
+      '20-39'
+      '>=40')
+    ItemIndex = 0
+    Position.X = 328.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+  end
+  object cmbEstadoCivil: TComboBox
+    Items.Strings = (
+      'Casado'
+      'Solteiro'
+      'Divorciado'
+      'Vi'#250'vo')
+    ItemIndex = 0
+    Position.X = 192.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+  end
+  object cmbDependentes: TComboBox
+    Items.Strings = (
+      '0-2'
+      '3-5'
+      '>5')
+    ItemIndex = 0
+    Position.X = 328.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+  end
+  object cmbRenda: TComboBox
+    Items.Strings = (
+      '700-8000'
+      '8001-15000'
+      '>15000')
+    ItemIndex = 0
+    Position.X = 192.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+  end
+  object cmbResidencia: TComboBox
+    Items.Strings = (
+      'Pr'#243'pria'
+      'Alugada'
+      'Parentes')
+    ItemIndex = 0
+    Position.X = 328.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+  end
+  object cmbVeiculo: TComboBox
+    Items.Strings = (
+      'Sim'
+      'N'#227'o')
+    ItemIndex = 0
+    Position.X = 192.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Position.X = 328.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Idade'
+  end
+  object Label2: TLabel
+    Position.X = 192.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'G'#234'nero'
+  end
+  object Label3: TLabel
+    Position.X = 192.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Renda'
+  end
+  object Label4: TLabel
+    Position.X = 328.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Dependentes'
+  end
+  object Label5: TLabel
+    Position.X = 192.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Estado c'#237'vil'
+  end
+  object Label6: TLabel
+    Position.X = 328.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Resid'#234'ncia'
+  end
+  object Label7: TLabel
+    Position.X = 192.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Ve'#237'culo'
+  end
+  object lblPerfil: TLabel
+    Position.X = 328.000000000000000000
+    Position.Y = 168.000000000000000000
+    Text = 'lblPerfil'
+  end
+  object btnTreinar: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 19
+    Text = 'Treinar'
+    OnClick = btnTreinarClick
+  end
+  object btnPrever: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 18
+    Text = 'Prever'
+    OnClick = btnPreverClick
+  end
+  object lblPefilKNN: TLabel
+    Position.X = 328.000000000000000000
+    Position.Y = 192.000000000000000000
+    Text = 'lblPefilKNN'
+  end
+  object lblBackpropagation: TLabel
+    Position.X = 328.000000000000000000
+    Position.Y = 216.000000000000000000
+    Text = 'lblBackpropagation'
+  end
+  object lblRprop: TLabel
+    Position.X = 328.000000000000000000
+    Position.Y = 240.000000000000000000
+    Text = 'lblRprop'
+  end
+  object lblBom: TLabel
+    Position.X = 200.000000000000000000
+    Position.Y = 288.000000000000000000
+    Text = 'lblBom'
+  end
+  object lblMedio: TLabel
+    Position.X = 200.000000000000000000
+    Position.Y = 312.000000000000000000
+    Text = 'Label8'
+  end
+  object lblRuim: TLabel
+    Position.X = 200.000000000000000000
+    Position.Y = 336.000000000000000000
+    Text = 'Label8'
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = dtmConexao.qryPessoas
+    ScopeMappings = <>
+    Left = 48
+    Top = 72
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 44
+    Top = 13
+    object LinkFillControlToField1: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      Control = ListView1
+      Track = True
+      FillDataSource = BindSourceDB1
+      FillDisplayFieldName = 'genero'
+      AutoFill = True
+      FillExpressions = <
+        item
+          SourceMemberName = 'residencia'
+          ControlMemberName = 'Detail'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+  object naivebayes: TILNaiveBayes
+    OnResult = naivebayesResult
+    Left = 424
+    Top = 280
+  end
+  object knn: TILKNearestNeighbor
+    K = 1
+    OnResult = knnResult
+    Left = 424
+    Top = 336
+  end
+  object redeneural: TILNeuralNetwork
+    OnResult = redeneuralResult
+    HiddenLayers = <
+      item
+      end
+      item
+      end>
+    Inputs.Size = 7
+    Outputs.Size = 1
+    Left = 424
+    Top = 392
+  end
+  object backpropagation: TILNeuralNetworkBackpropTrain
+    NeuralNetwork = redeneural
+    TerminationCriteria.MaxIteration = 1000
+    Left = 328
+    Top = 392
+  end
+  object rprop: TILNeuralNetworkRPropTrain
+    NeuralNetwork = rederprop
+    TerminationCriteria.MaxIteration = 1000
+    Left = 312
+    Top = 352
+  end
+  object rederprop: TILNeuralNetwork
+    OnResult = rederpropResult
+    HiddenLayers = <
+      item
+      end
+      item
+      end>
+    Inputs.Size = 7
+    Outputs.Size = 1
+    Left = 360
+    Top = 312
+  end
+end
