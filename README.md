@@ -8,3 +8,13 @@ Este repositório contém materiais e exemplos do curso de Inteligência Artific
 ✔ Aplicações práticas e exemplos de código
 
 Curso produzido e oferecido por IA Expert Academy, no YouTube. URL do Curso: https://www.youtube.com/playlist?list=PLZ3V9XyVA52_cTYnWtQuEjjPLNOasoRwj
+
+## Etapas do Projeto
+### Pré-processamento da Base de Dados Histórica
+* Análise da base de dados histórica para definição de regras de negócio, atributos previsores e classe para modelos de Classificação;
+* Correção de valores ausentes e inconsistentes;
+    * Exclusão;
+    * Verificação manual;
+    * Valores globais;
+    * Média (implementado);
+    * Mineração de dados;
