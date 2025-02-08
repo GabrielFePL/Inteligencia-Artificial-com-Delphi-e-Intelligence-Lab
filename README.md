@@ -9,6 +9,9 @@ Este repositório contém materiais e exemplos do curso de Inteligência Artific
 
 Curso produzido e oferecido por IA Expert Academy, no YouTube. URL do Curso: https://www.youtube.com/playlist?list=PLZ3V9XyVA52_cTYnWtQuEjjPLNOasoRwj
 
+## Tecnologias Utilizadas:
+* MySQL - Pré-processamento da base de dados histórica;
+
 ## Etapas do Projeto
 ### Pré-processamento da Base de Dados Histórica
 * Análise da base de dados histórica para definição de regras de negócio, atributos previsores e classe para modelos de Classificação;
@@ -18,3 +21,4 @@ Curso produzido e oferecido por IA Expert Academy, no YouTube. URL do Curso: htt
     * Valores globais;
     * Média (implementado);
     * Mineração de dados;
+    * Moda (implementado);
