@@ -22,3 +22,9 @@ Curso produzido e oferecido por IA Expert Academy, no YouTube. URL do Curso: htt
     * Média (implementado);
     * Mineração de dados;
     * Moda (implementado);
+* Atribuição de faixas de classificação para atributos numéricos, com finalidade de facilitar a observação de padrões durante o aprendizado de máquina;
+* Análise da dispersão dos dados pré-processados para validação de regras de negócio;
+
+### Desenvolvimento da Aplicação com Delphi
+* Criação de projeto multidispositivo;
+* Criação de um Data Modeling e conexão com a base de dados;

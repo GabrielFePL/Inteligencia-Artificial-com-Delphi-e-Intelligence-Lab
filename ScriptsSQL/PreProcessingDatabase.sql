@@ -1,4 +1,4 @@
-USE vendas;
+USE sales;
 
 -- ANÁLISE DA TABELA pessoas
 SELECT * FROM pessoas;
