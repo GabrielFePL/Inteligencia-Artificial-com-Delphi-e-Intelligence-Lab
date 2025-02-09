@@ -11,6 +11,7 @@ Curso produzido e oferecido por IA Expert Academy, no YouTube. URL do Curso: htt
 
 ## Tecnologias Utilizadas:
 * MySQL - Pré-processamento da base de dados histórica;
+* Delphi - Aplicação com modelos de inteligência artificial
 
 ## Etapas do Projeto
 ### Pré-processamento da Base de Dados Histórica
