@@ -1,0 +1,17 @@
+﻿[ListView1]
+Coordinates=254,10,89,159
+Visible=True
+
+[DataModule1.queryPreProcessedData]
+Coordinates=10,10,200,33
+Visible=False
+
+[]
+Coordinates=27,187,91,36
+
+[BindSourceDB1]
+Coordinates=10,10,182,213
+
+[BindingsList1]
+Coordinates=247,197,82,33
+
